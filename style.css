@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./assets/home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1535px;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+.card {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 300px;
+    height: 380px;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+}
+.btn1,.btn2,.btn3  {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn1:hover {
+    background: rgb(53, 167, 110);
+}
+.btn2:hover {
+    background: rgb(53, 167, 110);
+}
+.btn3:hover {
+    background: rgb(53, 167, 110);
+}
+
+
+.btn1:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+.btn2:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+.btn3:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+.btn_container {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 20px;
+    
+}
+.stage1  {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.stage2, .stage3  {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+    
+.stage1 > div {
+    margin-left: 20px;
+}
+
+.descr_stage {
+    display: none;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.num_stage {
+    margin-top: 15px;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+}
+
+.blue {
+    background-color: rgb(13, 114, 203);
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.green {
+    background-color: rgb(24, 225, 27);
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.brown {
+    background-color: rgba(139, 144, 8, 0.689);
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
